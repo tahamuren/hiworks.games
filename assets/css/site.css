@@ -240,3 +240,6 @@ dialog::backdrop { background: rgba(10, 11, 11, 0.92); }
 /* logo tiles: one height, the logo centred inside */
 .tile--dark, .tile--light { aspect-ratio: 2 / 1; display: grid; place-items: center; }
 .tile--dark img, .tile--light img { max-height: 100%; width: auto; max-width: 100%; object-fit: contain; }
+
+/* the community line under the contact address */
+.contact-block .community { margin-top: 18px; color: #c9c8c3; }
